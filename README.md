@@ -18,7 +18,9 @@ This project is created with:
 * MongoDB Atlas
 
 ## Setup
-
+```
 $ cd "../node-passport-login-demo"
 $ npm install
 $ npm start
+
+```
