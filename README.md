@@ -19,6 +19,6 @@ This project is created with:
 
 ## Setup
 
-cd "../node-passport-login-demo"
-npm install
-npm start
+$ cd "../node-passport-login-demo"
+$ npm install
+$ npm start
