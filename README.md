@@ -1,4 +1,4 @@
-#6 Login-demo - The beginning of my picture sharing APP.
+# Login-demo - The beginning of my picture sharing APP.
 
 Simple app created with Node.js, Express.js and MongoDB
 
