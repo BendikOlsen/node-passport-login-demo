@@ -1,0 +1,21 @@
+<h1 class="mt-4">Dashboard</h1>
+<p class="lead mb-3">Welcome 
+    <%= user.name[0].toUpperCase() + user.name.substring(1, user.name.length) %></p>
+    <form action="/groups" method="POST">
+        <div class="form-group">
+        <label for="name">Create Group</label>
+            <input
+                type="text"
+                id="groupname"
+                name="name"
+                class="form-control"
+                placeholder="Enter group name"
+            />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Create group</button>
+    </form>
+
+    <% user.memberOf.forEach((group) => { %>
+        <div> <%= group.name %> </div>
+    <% })  %>
+<a href="/users/logout" class="btn btn-secondary">Logout</a>
